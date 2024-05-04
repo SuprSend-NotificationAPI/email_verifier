@@ -1,14 +1,21 @@
 /* InputForm.css */
 .input-form {
-    margin: 0 auto;
-    width: 80%;
-    max-width: 500px; /* Adjust maximum width for the card */
-    background-color: #0d1628; /* Dark background color */
-    border-radius: 20px; /* Rounded corners for the card */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6); /* Box shadow for depth */
-    padding: 40px; /* Add padding for inner content */
-    overflow: hidden; /* Hide overflow to prevent animation overflow */
-  }
+  margin: 0 auto;
+  width: 80%;
+  max-width: 500px; /* Adjust maximum width for the card */
+  background: linear-gradient(145deg, #1c2535, #111720); /* Gradient background */
+  border-radius: 20px; /* Rounded corners for the card */
+  box-shadow: 0 20px 50px rgba(100, 22, 224, 0.8); /* Adjusted box shadow for depth */
+  padding: 40px; /* Add padding for inner content */
+  overflow: hidden; /* Hide overflow to prevent animation overflow */
+  transition: box-shadow 0.3s ease; /* Smooth transition for box shadow */
+}
+
+/* Hover effect */
+.input-form:hover {
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.9); /* Adjusted box shadow on hover */
+}
+
   
   .input-form form {
     display: flex;

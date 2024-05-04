@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import InputForm from './InputForm';
 import ResultTable from './ResultTable';
+import './App.css';
 
 function App() {
   const [results, setResults] = useState([]);
