@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/email_verifier/static/css/main.3ee44613.css",
+    "main.js": "/email_verifier/static/js/main.2784db48.js",
+    "static/js/453.82c5a5be.chunk.js": "/email_verifier/static/js/453.82c5a5be.chunk.js",
+    "static/media/fa-solid-900.ttf": "/email_verifier/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
+    "static/media/fa-brands-400.ttf": "/email_verifier/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
+    "static/media/fa-solid-900.woff2": "/email_verifier/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
+    "static/media/fa-brands-400.woff2": "/email_verifier/static/media/fa-brands-400.455ea818179b4def0c43.woff2",
+    "static/media/fa-regular-400.ttf": "/email_verifier/static/media/fa-regular-400.eb91f7b948a42799f678.ttf",
+    "static/media/fa-regular-400.woff2": "/email_verifier/static/media/fa-regular-400.21cb8f55d8e0c5b89751.woff2",
+    "static/media/fa-v4compatibility.ttf": "/email_verifier/static/media/fa-v4compatibility.c8e090db312b0bea2aa2.ttf",
+    "static/media/fa-v4compatibility.woff2": "/email_verifier/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
+    "index.html": "/email_verifier/index.html",
+    "main.3ee44613.css.map": "/email_verifier/static/css/main.3ee44613.css.map",
+    "main.2784db48.js.map": "/email_verifier/static/js/main.2784db48.js.map",
+    "453.82c5a5be.chunk.js.map": "/email_verifier/static/js/453.82c5a5be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ee44613.css",
+    "static/js/main.2784db48.js"
+  ]
+}
