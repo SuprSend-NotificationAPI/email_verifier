@@ -1,0 +1,24 @@
+/* App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #1a202c; /* Darker background color */
+  color: #ffffff;
+  padding: 20px;
+  border-bottom: 2px solid #718096; /* Border color */
+  border-radius: 0 0 20px 20px; /* Rounded corners for the top */
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 28px; /* Larger font size for the header */
+}
+
+.header p {
+  margin-top: 10px; /* Increase margin top for the paragraph */
+  font-size: 18px;
+  color: #cbd5e0; /* Lighter text color */
+}

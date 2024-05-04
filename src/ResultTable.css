@@ -1,0 +1,58 @@
+.result-table {
+    margin: 20px auto;
+    width: calc(100% - 40px); /* Subtracting padding from both sides */
+    background-color: #2d3748; /* Dark background */
+    border-radius: 20px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow for rounded corners */
+    color: #fff; /* Light text color */
+    padding: 10px; /* Add padding to both ends */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+}
+
+.result-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.result-table th,
+.result-table td {
+    padding: 16px;
+    border: none; /* Remove border to maintain the card-like appearance */
+    text-align: left; /* Align text to left */
+}
+
+.result-table th {
+    background-color: #4a5568; /* Darker background */
+    font-weight: bold;
+    color: #fff; /* Light text color */
+    border-bottom: 2px solid #cbd5e0; /* Add bottom border to header */
+}
+
+.result-table th:first-child {
+    padding-left: 20px; /* Adjust padding for the first column */
+}
+
+.result-table tbody tr:nth-child(even) {
+    background-color: #475569; /* Darker background for even rows */
+}
+
+.result-table tbody tr:hover {
+    background-color: #62717e; /* Darker background on hover */
+}
+
+.result-table button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* Blue button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Increase margin top for better spacing */
+}
+
+.result-table button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

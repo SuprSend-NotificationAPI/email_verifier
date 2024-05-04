@@ -1,0 +1,97 @@
+/* InputForm.css */
+.input-form {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 500px; /* Adjust maximum width for the card */
+    background-color: #0d1628; /* Dark background color */
+    border-radius: 20px; /* Rounded corners for the card */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6); /* Box shadow for depth */
+    padding: 40px; /* Add padding for inner content */
+    overflow: hidden; /* Hide overflow to prevent animation overflow */
+  }
+  
+  .input-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align form items horizontally */
+  }
+  
+  .input-form label {
+    margin-bottom: 15px;
+    color: #cbd5e0; /* Light text color */
+  }
+  
+  .input-form textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #4a5568; /* Border color */
+    border-radius: 8px;
+    outline: none;
+    background-color: #2d3748; /* Input background color */
+    color: #cbd5e0; /* Text color */
+    margin-bottom: 25px;
+    margin-top: 25px;
+    height: 300px; /* Increase the height of the textarea */
+    width: 100%; /* Set textarea width to fill the container */
+    resize: vertical; /* Allow vertical resizing */
+}
+  
+  .input-form button[type="submit"] {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #4a5568; /* Button background color */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth hover transition */
+  }
+  
+  .input-form button[type="submit"]:hover {
+    background-color: #718096; /* Darker color on hover */
+  }
+  
+  /* Running animations */
+  .running-animations {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Behind the card */
+  }
+  
+  .running-animation {
+    position: absolute;
+    width: 300%;
+    height: 300%;
+    top: -100%;
+    left: -100%;
+    animation: runningAnimation 20s linear infinite alternate;
+    background: linear-gradient(45deg, #718096, #2d3748, #4a5568, #718096); /* Gradient colors for animation */
+  }
+  
+  @keyframes runningAnimation {
+    from {
+      transform: translate(-25%, -25%); /* Adjust initial position */
+    }
+    to {
+      transform: translate(125%, 125%); /* Adjust final position */
+    }
+  }
+  
+  .spinner {
+    display: inline-block;
+  }
+  
+  .spinner i {
+    font-size: 20px;
+    animation: spin 1s linear infinite; /* Animation for spinning */
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  
